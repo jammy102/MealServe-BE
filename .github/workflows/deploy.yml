@@ -5,9 +5,9 @@ on:
       - main
 env:
   AWS_REGION: ap-northeast-2
-  S3_BUCKET_NAME: my-github-action-s3-bucket-mealserve
-  CODE_DEPLOY_APPLICATION_NAME: my-codedeploy-app-sparta
-  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: my-codedeploy-deployment-group-sparta
+  S3_BUCKET_NAME: my-github-action-s3-bucket-mealserve1
+  CODE_DEPLOY_APPLICATION_NAME: my-codedeploy-app
+  CODE_DEPLOY_DEPLOYMENT_GROUP_NAME: my-codedeploy-deployment-group
 permissions:
   contents: read
 jobs:
